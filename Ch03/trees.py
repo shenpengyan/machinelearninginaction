@@ -1,3 +1,4 @@
+
 # coding: utf-8
 from math import log
 import operator
@@ -15,6 +16,7 @@ def majorityCnt(classList):
     return sortedClassCount[0][0]
 
 # 计算给定数据集的香农熵
+
 def calcShannonEnt(dataSet):
     numEntries = len(dataSet)
     labelCounts = {}
@@ -128,4 +130,3 @@ lenseTree = createTree(lenses, lensesLabels)
 print(lenseTree)
 
 treePlotter.createPlot(lenseTree)
-
